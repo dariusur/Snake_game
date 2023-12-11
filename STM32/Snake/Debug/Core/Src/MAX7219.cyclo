@@ -1,0 +1,5 @@
+../Core/Src/MAX7219.cpp:3:1:MAX7219::MAX7219(SPI_HandleTypeDef*)	1
+../Core/Src/MAX7219.cpp:8:6:void MAX7219::init()	1
+../Core/Src/MAX7219.cpp:18:6:void MAX7219::clear()	2
+../Core/Src/MAX7219.cpp:29:6:void MAX7219::sendData(uint8_t, uint8_t)	1
+../Core/Src/MAX7219.cpp:37:6:void MAX7219::switchLED(uint8_t, uint8_t, uint8_t)	3
