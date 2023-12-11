@@ -5,7 +5,7 @@ Classic snake game for Arduino and STM32 microcontrollers (Fig. 1). The project 
   <img src="https://github.com/dariusur/Snake_game/blob/main/Snake_game.gif">
 </p>
 <p align="center">
-  *Fig. 1. Snake game running on Arduino Nano (inside)*
+  <i>Fig. 1. Snake game running on Arduino Nano (inside)</i>
 </p>
 
 # Description
