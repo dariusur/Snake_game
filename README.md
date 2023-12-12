@@ -8,6 +8,7 @@ Classic snake game for Arduino and STM32 microcontrollers (Fig. 1). The project 
 <div align="center">
   <i>Fig. 1. On the left: snake game running on Arduino Nano (inside). On the right: Python GUI for snake movement commands</i>
 </div>
+
 # Description
 - Snake game is written in C++. A single class contains all variables and functions. Each function is responsible for a particular thing, e.g., snake movement, placement of fruit, collision checking, etc. The game evolves by looping through the functions in the correct order.
 - The code for the snake game is contained within two files: Snake_game.h and Snake_game.cpp. These files can be found in **Arduino > lib > Snake_game**, as well as in **STM32 > Snake > Core > Inc/Src folders**.
