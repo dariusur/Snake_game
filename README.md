@@ -27,7 +27,7 @@ Arduino folder is a PlatformIO project folder, so you can just simply open it by
 
 ## STM32
 ### STM32CubeIDE
-**STM32 > Snake** is a STM32CbeIDE project folder. The code was tested on STM32 NUCLEO-F446RE development board. If you have the same board, you could try to simply open the project folder in STM32CubeIDE, and then upload the code to the board. For other boards, you will need to create a project from scratch and place the MAX7219.h, MAX7219.cpp, Snake_game.h, Snake_game.cpp into the new project. In main.cpp you should then add these lines of code:
+**STM32 > Snake** is a STM32CbeIDE project folder. The code was tested on STM32 NUCLEO-F446RE development board. If you have the same board, you could try to simply open the project folder in STM32CubeIDE, and then upload the code to the board. For other boards, you will need to create a project from scratch and place the MAX7219.h, MAX7219.cpp, Snake_game.h, Snake_game.cpp into the new project. In main.cpp you should then add the code shown below. Afterwards you should be able to run the code.
 ```cpp
 #include <Snake_game.h>
 Snake snake(&hspi1, &huart2);
