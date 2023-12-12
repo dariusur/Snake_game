@@ -3,7 +3,7 @@ Classic snake game for Arduino and STM32 microcontrollers (Fig. 1). The project 
 
 <div align="center">
   <img src="https://github.com/kisvegabor/test/raw/master/smartwatch_demo.gif">
-  <img border="1px" src="https://lvgl.io/assets/images/lvgl_widgets_demo.gif">
+  <img src="https://lvgl.io/assets/images/lvgl_widgets_demo.gif">
 </div>
 
 
