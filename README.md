@@ -3,7 +3,7 @@ Classic snake game for Arduino and STM32 microcontrollers (Fig. 1). The project 
 
 <div align="center">
   <img src="https://github.com/dariusur/Snake_game/blob/main/Snake_game.gif">
-  <img src="https://github.com/dariusur/Snake_game/blob/main/Snake_game.gif">
+  <img src="https://github.com/dariusur/Snake_game/blob/main/Snake_game_GUI.png">
 </div>
 
 
