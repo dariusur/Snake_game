@@ -32,15 +32,15 @@ Arduino folder is a PlatformIO project folder, so you can just simply open it by
 #include <Snake_game.h>
 Snake snake(&hspi1, &huart2);
 int main(void) {
-  uint16_t screen_refresh_period = 200;
-  uint8_t LED_intensity = 6;
-  HAL_ADC_Start(&hadc1);
-  HAL_ADC_PollForConversion(&hadc1, 10);
-  snake.init(screen_refresh_period, LED_intensity, HAL_ADC_GetValue(&hadc1));
-  HAL_ADC_Stop(&hadc1);
-  while (1) {
-	  snake.play();
-  }
+	uint16_t screen_refresh_period = 200;
+	uint8_t LED_intensity = 6;
+	HAL_ADC_Start(&hadc1);
+	HAL_ADC_PollForConversion(&hadc1, 10);
+	snake.init(screen_refresh_period, LED_intensity, HAL_ADC_GetValue(&hadc1));
+	HAL_ADC_Stop(&hadc1);
+  	while (1) {
+		snake.play();
+  	}
 }
 ```
 
