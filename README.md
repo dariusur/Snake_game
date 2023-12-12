@@ -10,7 +10,7 @@ Classic snake game for Arduino and STM32 microcontrollers (Fig. 1). The project 
 
 # Overview
 - The code for the snake game is contained within two files: Snake_game.h and Snake_game.cpp. These files can be found in **Arduino > lib > Snake_game**, as well as in **STM32 > Snake > Core > Inc/Src folders**.
-- The code for Arduino and STM32 is mostly the same except for UART and SPI protocol implementations.
+- The code for Arduino and STM32 is mostly the same except for UART and SPI protocol implementations and a few other functions.
 - The GUI script was programmed in Python using tkinter framework from the standard Python library. The script binds the arrow keys on the keyboard to movement commands of the snake. Serial communication via USB is used to send the commands to the microcontroller.
 - 
 
