@@ -2,8 +2,8 @@
 Classic snake game for Arduino and STM32 microcontrollers (Fig. 1). The project uses an 8x8 LED matrix for display and a graphical user interface (GUI) written in Python 3 for controls. The GUI runs on a PC and the commands are sent via USB cable to the microcontroller.
 
 <div align="center">
-  <img src="https://github.com/kisvegabor/test/raw/master/smartwatch_demo.gif">
-  <img src="https://lvgl.io/assets/images/lvgl_widgets_demo.gif">
+  <img src="https://github.com/dariusur/Snake_game/blob/main/Snake_game.gif">
+  <img src="https://github.com/dariusur/Snake_game/blob/main/Snake_game.gif">
 </div>
 
 
